@@ -3,10 +3,10 @@ import './App.css'
 
 function App() {
 
-  const [color,setColor] = useState("bg-olive-600")
+  const [color,setColor] = useState("red")
 return (
    <div 
-    className="w-full h-screen "
+    className="w-full h-screen"
     style={{backgroundColor: color}}
   >
        <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
